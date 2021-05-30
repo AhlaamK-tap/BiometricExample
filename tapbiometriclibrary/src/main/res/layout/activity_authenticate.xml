@@ -1,0 +1,47 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    tools:context=".AuthenticateActivity"
+    android:orientation="vertical">
+
+    <ImageView
+        android:id="@+id/imageView_authenticate"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center_horizontal"
+        android:src="@drawable/ic_finger_foreground"
+        />
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center_horizontal"
+        android:id="@+id/text_finger"
+        android:text="Just keep your finger for Authentication"/>
+
+
+    <Button
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Biometric Prompt"
+        android:id="@+id/btn_biometric"
+        android:layout_marginTop="60dp"
+        android:onClick="openBiometric"
+      android:layout_gravity="center_horizontal"
+        />
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:textColor="@color/errorText"
+        android:textSize="14sp"
+        android:textAlignment="center"
+        android:id="@+id/errorText"
+        android:paddingEnd="30dp"
+        android:paddingStart="30dp"
+        android:layout_marginTop="30dp"
+        android:gravity="center"/>
+
+</LinearLayout>

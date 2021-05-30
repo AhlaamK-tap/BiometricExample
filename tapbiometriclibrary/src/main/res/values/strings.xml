@@ -1,0 +1,10 @@
+<resources>
+    <string name="error_msg_auth_failed">Authentication Failed</string>
+    <string name="error_msg_auth_error">Authentication error</string>
+    <string name="auth_subtitle">Put your finger</string>
+    <string name="auth_description">keep finger here</string>
+    <string name="auth_title">Biometric login for my app</string>
+    <string name="error_msg_no_biometric_hardware">This device doesnot support</string>
+    <string name="error_msg_biometric_hw_unavailable">Biometric unavailable</string>
+    <string name="error_msg_biometric_not_setup">Biometric not setup</string>
+</resources>

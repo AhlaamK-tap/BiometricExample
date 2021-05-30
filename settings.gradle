@@ -1,0 +1,3 @@
+rootProject.name='BiometricExample'
+include ':app'
+include ':tapbiometriclibrary'
